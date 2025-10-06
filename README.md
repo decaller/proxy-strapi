@@ -24,6 +24,8 @@ HOST=0.0.0.0
 PORT=1337
 URL=https://   # Your url goes here, only support domain or domain/path
 
+JWT_SECRET=   # run crypto.randomBytes(16).toString('base64') or $bytes = New-Object byte[] 16; [System.Security.Cryptography.RandomNumberGenerator]::Create().GetBytes($bytes); [System.Convert]::ToBase64String($bytes)   i forgot when this is automatically generated
+
 # the rest of parameter are auto generated
 ```
 

@@ -1,6 +1,8 @@
 This is easy docekr image creation for strapi with external postgres
 
-do `npx create-strapi@latest my-strapi-project`
+do `npx create-strapi@latest`
+
+run it dev local first `npm run dev` and make changes
 
 do changes :
 
